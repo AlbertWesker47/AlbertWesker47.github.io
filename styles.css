@@ -123,6 +123,7 @@ ul {
 .navigation ul li p
 {
     text-shadow: 2px 2px 1px black;
+    font-size: 1vw;
 }
 .menu
 {
@@ -253,8 +254,10 @@ textarea
     position: relative;
     left: 20%;
     border-radius: 8px;
-    width: 50%;
-    font-size: 15px;
+    width: 30%;
+    height: 15%;
+    font-size: 100%;
+
 }
 #cv:hover
 {
@@ -266,4 +269,12 @@ textarea
     background-color: wheat;
     color: black;
     border: solid wheat;
+}
+#messagebutton
+{
+    font-size: 1vw;
+    width: 30%;
+    height: 15%;
+    padding: 3%;
+
 }
