@@ -1,0 +1,269 @@
+#namefont {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 2vw;
+    color: wheat;
+    text-align: center;
+    text-shadow: 6px 6px  8px black;
+    overflow: hidden;
+    border-right: .15em solid transparent;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0em;
+    animation:
+        typing 5s steps(40),
+        blink-caret .75s step-end 20;
+}
+@keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 50%
+        }
+}
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: wheat;
+    }
+    50% {
+        border-color: transparent;
+    }
+}
+#profilepic
+{
+    height: 120px;
+    width: 100px;
+}
+.font {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+body
+{
+    background: url("Assets/pexels-pixabay-268533.jpg") no-repeat fixed;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+
+}
+.photo
+{
+border: solid whitesmoke 0.2em;
+    right:0;
+    width: 40%;
+    height: 50%;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 30px;
+}
+.parties
+{
+    background-color: black;
+    opacity: 90%;
+    border-radius: 30px;
+    padding: 1em;
+    border: solid rebeccapurple 0.1em;
+
+}
+
+.parties p {
+    color: wheat;
+    font-size: 1vw;
+    font-family: 'Nunito', sans-serif;
+}
+.rightparties
+{
+    border-radius: 30px;
+    width: 44%;
+    padding: 2.5em;
+}
+.rightparties h1
+{
+    font-size: 3vw;
+    font-weight: bold;
+    color: wheat;
+    text-shadow: 2px 2px 3px black;
+}
+.tuile
+{
+    border-radius: 30px;
+    width: 40%;
+    padding: 2.5em;
+}
+.tuile h1
+{
+    font-size: 3vw;
+    font-weight: bold;
+    color: wheat;
+    text-shadow: 2px 2px 3px black;
+}
+.rightparties p
+{
+    color: wheat;
+}
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    width: 12%;
+    background: transparent;
+    border-radius: 30px;
+
+
+}
+.navigation ul li p
+{
+    text-shadow: 2px 2px 1px black;
+}
+.menu
+{
+    position: relative;
+    text-decoration: none;
+    color: orangered;
+    padding: 5px 0;
+}
+.menu:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background: yellowgreen;
+    transition: width 500ms ease;
+}
+li p:hover:after {
+    width: 80%;
+}
+a
+{
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+}
+a:hover
+{
+    color: white;
+}
+#identite
+{
+    position: absolute;
+    top: 25%;
+    right: 33%;
+}
+.centralparties
+{
+    margin-left: auto;
+    background-color: white;
+    opacity: 50%;
+    border-radius: 30px;
+    width: 20%;
+    padding: 0.5em;
+    border: solid skyblue 0.5em;
+}
+#contactform
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+.centralparties h1
+{
+    position: relative;
+    bottom: 60px;
+    color: black;
+}
+#experience
+{
+    position: absolute;
+    top: 120%;
+    right: 70%;
+}
+.btn {
+    background-color: transparent;
+    border: solid wheat;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+label
+{
+    color: wheat;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 1%;
+    text-align: left;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 5%;
+    width: 60%;
+    flex: 0 0 200px;
+    margin-left: 10px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid midnightblue;
+}
+textarea
+{
+    width: 70%;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    border-bottom: 2px solid midnightblue;
+}
+.col-md-6 ul li p
+{
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.identity
+{
+    letter-spacing: 0.5vw;
+    font-weight: bolder;
+}
+#github
+{
+    position: relative;
+    left: 5%;
+}
+#facebook
+{
+    position: relative;
+    left: 10%;
+}
+#cv
+{
+    position: relative;
+    left: 20%;
+    border-radius: 8px;
+    width: 50%;
+    font-size: 15px;
+}
+#cv:hover
+{
+    background-color: wheat;
+    color: black;
+}
+#messagebutton:hover
+{
+    background-color: wheat;
+    color: black;
+    border: solid wheat;
+}
