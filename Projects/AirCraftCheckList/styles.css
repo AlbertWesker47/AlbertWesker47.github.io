@@ -1,0 +1,87 @@
+#index{
+color:black;
+background-color:white;
+background-image:url(images/dashboard.jpg);
+}
+
+.titre {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: whitesmoke;
+}
+
+.planes {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.select {
+     text-align: center;
+   color: whitesmoke;
+}
+
+.disclaimer {
+     text-align: center;
+    color: whitesmoke;
+}
+
+.description {
+    text-align: center;
+    position: relative;
+    color: whitesmoke;
+
+}
+
+.backgroundpage {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(22,22,22);
+    color: yellowgreen;
+}
+.procedure {
+    color: aliceblue;
+}
+
+#memo {
+    color: aqua;
+}
+
+.card-block {
+    width: 50rem;
+    position: relative;
+    text-align: center;
+    background-color: white;
+}
+
+.button {
+
+    border-radius: 25px;
+    border-color: gray(5);
+    border-width: thick;
+    height: 100px;
+    background-color: rgba(14,14,14,10);
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-shadow: 3px 3px 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+
+.checktitle
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.disclaimer {
+    background-color: black;
+    color: yellow;
+}
