@@ -61,17 +61,11 @@ footer {
     color: white;
     font-weight: bold;
 }
-@font-face {
-    font-family: 'data_controllatin';
-    src: url("Assets/data-latin-webfont.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 .wrap
 {
-    font-family: data_controllatin, serif;
-    color: lawngreen;
-    text-shadow: 1px 1px 2px yellowgreen, 0 0 1em green, 0 0 0.2em blue ;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px white, 0 0 1em dimgrey, 0 0 0.2em black ;
 
 }
 
@@ -215,6 +209,7 @@ p
 .col-md-6
 {
    text-align: center;
+
 }
 .col-md-12
 {
@@ -226,7 +221,8 @@ p
 }
 .stripe
 {
-    padding: 100px;
+    padding-top: 100px;
+    width: 100%;
 }
 h3
 {
@@ -247,11 +243,22 @@ h3
 {
     text-align: center;
 }
-.social
-{
-    fill: yellowgreen;
-}
 .form
 {
     justify-content: center;
+}
+@media (max-width: 700px)
+{
+  p
+  {
+      font-size: 12px;
+  }
+    .identity
+    {
+        font-size: 16px;
+    }
+}
+#form
+{
+    padding-top: 0;
 }
